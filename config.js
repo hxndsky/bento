@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
@@ -53,21 +53,60 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
+			name: 'Google',
+			icon: 'search',
+			link: 'https://google.com/',
+		},
+		{
+			id: '2',
 			name: 'Youtube',
 			icon: 'youtube',
 			link: 'https://youtube.com/',
 		},
 		{
-			id: '2',
+			id: '3',
 			name: 'Github',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com/hxndsky',
+		},
+		{
+			id: '4',
+			name: 'Instagram',
+			icon: 'instagram',
+			link: 'https://instagram.com/',
+		},
+		{
+			id: '5',
+			name: 'Pinterest',
+			icon: 'flame',
+			link: 'https://pinterest.com',
+		},
+		{
+			id: '6',
+			name: 'Reddit',
+			icon: 'glasses',
+			link: 'https://reddit.com',
+		},
+	],
+
+	secondButtonsContainer: [
+		{
+			id: '1',
+			name: 'Gmail',
+			icon: 'mail',
+			link: 'https://mail.google.com/mail/u/0/',
+		},
+		{
+			id: '2',
+			name: 'twitter',
+			icon: 'twitter',
+			link: 'https://twitter.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'bot',
+			icon: 'bot',
+			link: 'https://discord.com/app',
 		},
 		{
 			id: '4',
@@ -77,9 +116,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Music',
+			icon: 'headphones',
+			link: 'https://open.spotify.com',
+		},
+		{
+			id: '6',
+			name: 'Figma',
+			icon: 'figma',
+			link: 'https://figma.com/',
 		},
 	],
 };
