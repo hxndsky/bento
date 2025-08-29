@@ -116,9 +116,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			name: 'Whatsapp',
+			icon: 'message-circle-more',
+			link: 'https://web.whatsapp.com/',
 		},
 		{
 			id: '6',
